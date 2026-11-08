@@ -1,0 +1,39 @@
+[project]
+name = "cuck-code"
+version = "1.0.0"
+authors = [{ name = "losthread" }]
+description = "A naive implementation of Claude Code in under 200 lines"
+readme = "README.md"
+requires-python = ">=3.12"
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+license = { text = "MIT" }
+
+dependencies = [
+  "annotated-types==0.8.0",
+  "anyio==4.16.0",
+  "h11==0.16.0",
+  "httpcore2==2.16.0",
+  "httpx2==2.16.0",
+  "idna==3.20",
+  "jiter==0.19.0",
+  "openai==3.46.0",
+  "pydantic==2.14.3",
+  "pydantic_core==2.50.4",
+  "python-dotenv==1.2.4",
+  "sniffio==1.3.1",
+  "truststore==0.10.5",
+  "typing-inspection==0.4.5",
+  "typing_extensions==4.16.0",
+]
+
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+cc = "app.core.main:main"
