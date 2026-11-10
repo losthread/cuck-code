@@ -7,6 +7,8 @@ A naive implementation of Claude Code in under 300 lines of Python.
 Core agent loop + 3 file tools (`read_file`, `edit_file`, `list_files`).
 Part of the coursework in CS146S: The Modern Software Developer by Stanford.
 
+![CC](assets/demo.png)
+
 ## Requirements
 
 - Python >= 3.12
