@@ -1,5 +1,7 @@
 # Cuck Code
 
+Because that is what software engineering has become.
+
 A naive implementation of Claude Code in under 300 lines of Python.
 
 Core agent loop + 3 file tools (`read_file`, `edit_file`, `list_files`).
